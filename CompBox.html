@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <Title>CompBox</Title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="stylec.css">
+    
+</head>
+
+<body style="margin:0">
+
+    <div id="a">
+
+        <img style=" float:left ;width: 60px;height: 115px;"
+            src="pst2.png">
+        <p id="b">CompBox</p>
+        <div id="c">
+            <a href="CompBox.html">Home</a>
+            <a href="ss">Ministries</a>
+            <a href="euhdu">About us</a>
+            <a style="cursor: pointer;" id="mm">LoginAsMinistry</a>
+            <a href="profile">UserProfile</a>
+
+        </div>
+    </div><br><br><br><br><br><br>
+    <img style="height: 450px;float: right;"
+        src="mailbox-concept-landing-page_52683-22761.jpg">
+
+    <div id="qoute">
+        <p
+            style="font-family: Arial, Helvetica, sans-serif;font-weight: bold;color: rgb(221, 233, 62);font-size: 3em; margin-left: 10px;text-align: center;">
+            At your service..<br>Always</p>
+    </div>
+    <div style="margin-left: 40px;">
+        <button id="loginb">Login</button>
+        <button  onclick="window.location.href ='file:///G:/wb_P/CompBox/CompBox2.html?fname=&lname=&dob=&nid=&email=&pass=&cpass='">Sign Up</button>
+    </div>
+
+    <div class="modal modal-hidden">
+        <div class="modal-content">
+            <div class="close" >+</div>
+            <img src="user3.png" style= "width:160px;height:145px ;left:45px ;margin-left: 20px;margin-top :30px ;display: inline-block; position:relative;">
+            <span id='e'>User Login</span>
+            <form action="" id='flogin'>
+                <input class='in'type="email"placeholder="E-mail" ><br><br>
+                <input class='in'type="Password"placeholder="Password">
+                <button id="loginbutton" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    
+    
+    <div class="Mlogin hidden2">
+        <div class="MLoginContent">
+            <span id='close2'>+</span>
+             <img id="m" src="login-icons.png">
+             <span id='e2'>Ministry Login</span>
+                <form action="" id='Mlogin2'>
+                    <label for="selectMinistry">Choose Your Ministry:</label>
+                        <select id="CM">
+                        <option value="Education">Education</option>
+                        <option value="Food">Food</option>
+                        <option value="Land">Land</option>
+                        <option value="WaterResource">Water Resource</option>
+                        <option value="Health">Health and Family welfare</option>
+                        <option value="RoadTransport">Road Transport and Bridges</option>
+                        <option value="EnvironmentForest">Environment and Forest</option>
+                        <option value="Commerce">Commerce</option>
+                        </select><br><br><br>
+                   <span>Email:</span> <input id='in1'type="email"placeholder="Enter Your E-mail" ><br><br>
+                   <span>Password:</span> <input id='in2'type="Password"placeholder="Enter Your Password">
+                    <button id="loginbutton2" type="submit">Login</button> 
+                </form> 
+        </div>
+    </div>
+    <!-- <button id="mm" style="text-align: center;">fortest</button> -->
+
+    <script type="text/javascript" src="javaS.js"></script>
+
+
+</body>
+
+
